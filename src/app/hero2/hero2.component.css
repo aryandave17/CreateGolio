@@ -1,0 +1,23 @@
+.hero2{background:#fff}
+.bg-blue-light{background:rgba(235,246,255,0.8)}
+.bg-pink-light{background:rgba(255,238,246,0.9)}
+.bg-gray-light{background:rgba(248,250,252,0.9)}
+.icon-box{display:flex;align-items:center;justify-content:center}
+.icon-box img{width:64px;height:64px;object-fit:contain;display:block}
+
+/* larger icons on large screens */
+@media (min-width:992px){
+  .icon-box img{width:148px;height:148px}
+}
+
+/* header illustration sizing */
+.header-illustration{width:100%;max-width:280px;height:auto}
+.card h5{font-weight:700}
+.display-6{font-size:2.25rem}
+
+@media (min-width:1200px){
+  .display-6{font-size:2.5rem}
+}
+
+/* vertical divider between header columns */
+.vertical-divider{width:1px;height:64px;background:#e9ecef;border-radius:2px}

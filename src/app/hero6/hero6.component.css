@@ -1,0 +1,10 @@
+.hero6{background:#fff}
+.logos-row .logo{max-height:36px;opacity:.95;filter:grayscale(0);display:block}
+@media (max-width:767.98px){
+  .logos-row .logo{max-height:28px}
+}
+
+/* keep logos aligned to the right of the text on md+ */
+@media (min-width:768px){
+  .logos-row{justify-content:flex-start}
+}

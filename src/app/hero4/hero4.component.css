@@ -1,0 +1,12 @@
+.hero4{background:#fff}
+.quote-bar{width:4px;height:120px;background:#cfe7ff;border-radius:2px}
+.quote-text{color:#234;line-height:1.6;margin:0;max-width:560px}
+.quote-mark{font-size:0;margin-top:8px}
+.quote-mark .quotes-img{width:44px;height:auto;display:block}
+.testimonial-img{max-width:520px;width:100%;height:auto}
+
+@media (max-width:767.98px){
+  .quote-bar{display:none}
+  .testimonial-img{max-width:360px}
+  .quote-text{font-size:.95rem}
+}

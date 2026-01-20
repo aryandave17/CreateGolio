@@ -1,0 +1,12 @@
+.hero7{background:#07193a;color:#fff}
+.hero7 .hero7-text h3{color:#fff;font-size:1.75rem}
+.hero7{padding-top:2.5rem;padding-bottom:2.5rem}
+.hero7 .hero7-text{max-width:560px}
+.hero7 .hero7-illustration .hero7-img{max-width:320px;width:100%;height:auto}
+@media (min-width:1200px){
+  .hero7 .hero7-text h3{font-size:2.25rem}
+}
+@media (max-width:767.98px){
+  .hero7{padding-top:3rem;padding-bottom:3rem}
+  .hero7 .hero7-text p{max-width:36rem;margin-left:auto;margin-right:auto}
+}
