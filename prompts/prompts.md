@@ -48,4 +48,3 @@ Mobile-first assumptions (explicit)
 - Keep text readable and avoid horizontal scrolling at all breakpoints.
 - Use Bootstrap utility classes to change order and alignment instead of custom media queries where possible.
 
-If you need the exact, verbatim prompts (original Hindi/English messages) captured from the chat history, I can produce a longer verbatim log as well.
