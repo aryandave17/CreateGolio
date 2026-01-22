@@ -1,9 +1,8 @@
 .app-footer{background:#f8fafb}
-.footer-logo{width:36px;height:auto}
-.social-img{width:36px;height:36px;object-fit:cover;border-radius:6px}
+.footer-logo{width:36px;max-width:100%;height:auto}
+.social-icons{flex-wrap:wrap;align-items:center}
+.social-img{height:auto;max-width:48px;object-fit:contain;border-radius:6px}
 .footer-link{color:#6c757d;text-decoration:none}
 .footer-link:hover{color:#0d6efd}
 
-@media (max-width:767.98px){
-  .social-img{width:32px;height:32px}
-}
+/* Use Bootstrap grid and utilities for responsiveness; avoid media queries here. */
